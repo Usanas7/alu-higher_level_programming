@@ -1,7 +1,10 @@
 #!/usr/bin/python3
-"""Module with a func that returns attrs and mthds of an object:."""
+''' function that returns the list
+'''
 
 
 def lookup(obj):
-        """Return a list of avail attrs nd mtds."""
-            return (dir(obj))
+        ''' function: lookup()
+            Returns a list object
+                '''
+                    return dir(obj)
