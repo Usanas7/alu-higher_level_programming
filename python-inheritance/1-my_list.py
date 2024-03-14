@@ -1,13 +1,10 @@
 #!/usr/bin/python3
-"""Creates a Mylist class that inherits from list."""
+""" using no module """
 
 
 class MyList(list):
-        """Mylist class => A sub class of list"""
-            def __init__(self):
-                        """initializes the object"""
-                                super().__init__()
+    """ my list class """
 
-                                    def print_sorted(self):
-                                                """prints the sorted list"""
-                                                        print(sorted(self))
+    def print_sorted(self):
+        """ function prints list in sorted order """
+        print(sorted(self))

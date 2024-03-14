@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-"""Module with a class that contains class-checking function."""
+""" using no modules """
 
 
 def is_kind_of_class(obj, a_class):
-        """Check if an object is an instance or inherited instance of a class.
-            """
-                return isinstance(obj, a_class)
+    """ function returns true for any existence of obj relative """
+    return isinstance(obj, a_class)
