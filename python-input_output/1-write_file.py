@@ -8,4 +8,3 @@ def write_file(filename="", text=""):
         f.write(text)
     return len(text)
 
-
