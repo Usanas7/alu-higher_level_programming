@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 This module defines the 'State' class, representing the 'states' table,
@@ -23,4 +22,3 @@ class State(Base):
     id = Column(Integer, primary_key=True, unique=True,
                 autoincrement=True, nullable=False)
     name = Column(String(128), nullable=False)
-
