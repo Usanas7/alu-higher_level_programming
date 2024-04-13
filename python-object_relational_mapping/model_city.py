@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """
 This module defines the 'City' class, which represents the 'cities' table,
@@ -24,4 +23,3 @@ class City(Base):
                 autoincrement=True, nullable=False)
     name = Column(String(128), nullable=False)
     state_id = Column(Integer, ForeignKey(State.id), nullable=False)
-
